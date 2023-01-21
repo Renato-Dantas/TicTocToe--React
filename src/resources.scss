@@ -1,0 +1,15 @@
+$c-black: #000;
+$c-white: #ededed;
+$c-white-hover: #f6f6f6;
+$c-dark-grey: #242424;
+
+@mixin phone {
+  @media screen and (max-width: 420px) {
+    @content;
+  }
+}
+@mixin smallest-screen {
+  @media screen and (max-width: 320px) {
+    @content;
+  }
+}
